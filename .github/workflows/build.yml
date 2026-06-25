@@ -8,6 +8,7 @@ on:
     branches: ['**']
   pull_request:
     branches: ['**']
+workflow_dispatch: # 新增这一行，开启手动运行按钮
 
 jobs:
   build:
